@@ -1,0 +1,37 @@
+package myWhile;
+
+public class ForMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int j;
+		int k;
+		
+		for (j=10; j<= 20; j=j+2) {
+			System.out.print(j + " ");
+		}
+		
+		System.out.println();
+		for (k=100; k>=10; k=k-10) {
+			System.out.print(k + " ");
+		}
+		
+		System.out.println();
+		for (k=1000; k>=10; k=k/10) {
+			System.out.print(k + " ");
+		}
+		
+		System.out.println();
+		for (k=10; k<=1000; k=k*10) {
+			System.out.print(k + " ");
+		}
+	}
+
+}
+
+Output:
+10 12 14 16 18 20 
+100 90 80 70 60 50 40 30 20 10 
+1000 100 10 
+10 100 1000
